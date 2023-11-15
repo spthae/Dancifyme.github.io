@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E1E2E6;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(29, 30, 35, 0.8), rgba(29, 30, 35, 0.8)), url(https://www.educo.es/wp-content/uploads/2021/10/Fotolia_JAZZ-1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.menu .options ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .options ul li a{
+    font-size: 16px;
+    padding: 20px;
+    color: #ffff;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .options ul li a:hover{
+    color:#C4DFA5;
+}
+
+.headerContent{
+    text-align: center;
+}
+
+.textHeader h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.textHeader h3{
+    font-size: 25px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.textHeader p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.button{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #A7DFA5;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: #AAEEA7;
+}
+
+.subCaractheristics{
+    margin-top: 25px;
+    align-items: center;
+}
+
+.subCaractheristics h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 400px;
+    margin-bottom: 10px;
+}
+
+.subCaractheristics p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 80px;
+}
+
+.containerC{
+    display: flex; 
+    justify-content: space-between; 
+    padding-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imgR{
+    width: 150px;
+}
+
+.imgB{
+    width: 150px;
+}
+
+.imgT{
+    width: 150px;
+}
+
+.imgE{
+    width: 150px;
+}
+
+.containerC h3{
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.containerC p{
+    font-size: 14px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-image: linear-gradient(rgba(29, 30, 35, 0.8), rgba(29, 30, 35, 0.8)), url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/25/f0dbzg1vdqnbd8p6mmmw/dance-city-guide-washington-crew);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.subContact h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #F9FAFC;
+}
+
+.subContact p{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    color: #F9FAFC;
+}
+
+.correo p{
+    margin-bottom: 30px;
+    color: #F9FAFC;
+}
+
+.icono_correo{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 30px;
+}
+
+.telefono p{
+    margin-bottom: 30px;
+    color: #F9FAFC;
+}
+
+.icono_telefono{
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 30px;
+}
+
+.socialMedia p{
+    margin-bottom: 20px;
+    color: #F9FAFC;
+}
+
+.social_icon{
+    padding-left: 60px;
+    justify-content: space-between;
+    width: 100px;
+}
+
+/*Pie de Pagina - Footer*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
